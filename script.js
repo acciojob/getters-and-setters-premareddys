@@ -1,7 +1,22 @@
 //complete this code
-class Person {}
+class Person {
+	constructor(name,age) {
+    this.getter = name;
+	this.setter = age;
+  }
+	get getter(){
+		return this.getter;
+	} 
+	set setter(x){
+		this.setter=x;
+	}
+}
 
-class Student extends Person {}
+class Student extends Person {
+	study(){
+		
+	}
+}
 
 class Teacher extends Person {}
 
